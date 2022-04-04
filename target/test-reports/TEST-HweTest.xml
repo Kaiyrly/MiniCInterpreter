@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="MacBook-Pro.local" name="HweTest" tests="63" errors="0" failures="0" skipped="0" time="0.138" timestamp="2021-11-24T20:43:55">
+                     <properties>
+      <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/Users/admin/documents/popl/hw4-handout/sbt/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2021-07-20"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.12+7"/><property name="user.name" value="admin"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/Users/admin/Library/Caches/JNA/temp/jna15759484022743689521.tmp"/><property name="java.vendor.version" value="Temurin-11.0.12+7"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/var/folders/mq/9x_fhmw958s87ng4nr1n94740000gn/T/"/><property name="java.version" value="11.0.12"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.vendor" value="Eclipse Foundation"/><property name="scala.ext.dirs" value="/Users/admin/.sbt/1.0/java9-rt-ext-eclipse_foundation_11_0_12"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="gopherProxySet" value="false"/><property name="java.class.path" value="/Users/admin/documents/popl/hw4-handout/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Eclipse Foundation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Seoul"/><property name="os.name" value="Mac OS X"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="KR"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/admin"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="/Users/admin/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="path.separator" value=":"/><property name="os.version" value="11.4"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="user.dir" value="/Users/admin/Documents/POPL/hw4-handout"/><property name="os.arch" value="x86_64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.12+7"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="HweTest" name="test with expected result: SkipVal input: skip" time="0.022">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(true) input: true" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(false) input: false" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: let x = 1 in x" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: 1" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(2) input: 1 + 1" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(0) input: 1 - 1" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: 1 * 1" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: 1 / 1" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(false) input: 1 == 0" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(true) input: 1 == 1" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(false) input: 1 &lt;= 0" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(true) input: 1 &lt;= 10" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(false) input: not true" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(true) input: not false" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(false) input: not 1 == 1" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: BoolVal(true) input: not 1 == 2" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: if true then 1 else 2" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(2) input: if false then 1 else 2" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(11) input: let x = 0 in begin while x &lt;= 10 x := x + 1 end ; x" time="0.003">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(0) input: let x = 0 in begin while false x := x + 1 end ; x" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(2) input: let x = 1 in x+1" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: ProcVal(List(Var(&quot;x&quot;)),Add(Var(&quot;x&quot;),Const(10)),HashMap()) input: proc (x) x + 10" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: ProcVal(List(Var(&quot;x&quot;), Var(&quot;y&quot;)),Add(Add(Var(&quot;x&quot;),Var(&quot;y&quot;)),Const(10)),HashMap()) input: proc (x,y) x + y + 10" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: ProcVal(List(Var(&quot;x&quot;), Var(&quot;z&quot;)),Add(Add(Var(&quot;x&quot;),Var(&quot;x&quot;)),Const(10)),HashMap()) input: proc (x,z) x + x + 10" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(13) input: let f = proc (x,y)  x + y + 10 in f (1,2)" time="0.004">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(11) input: let f = proc (x)  x  + 10 in f (1)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(20) input: let f = proc (x)  x  + 10 in let y = 10 in f &lt;y&gt;" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(5) input: let f = proc (x)  x := 5 in let y = 10 in begin f &lt;y&gt;; y end" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(10) input: let f = proc (x)  x := 5 in let y = 10 in begin f (y); y end" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(15) input: let f = proc (x,y)  x - y + 10 in let y = 10 in let z = 5 in f &lt;y,z&gt;" time="0.003">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(15) input: let f = proc (x,y)  x - y + 10 in let y = 10 in let z = 5 in f (y,z)" time="0.004">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(11) input: let x = 10 in x := 11" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: SkipVal input: let x = 10 in x := skip" time="0.0">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: EmptyRecordVal input: {}" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: RecordVal(Var(&quot;x&quot;),LocVal(0),EmptyRecordVal) input: {x := 1}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: RecordVal(Var(&quot;y&quot;),LocVal(0),RecordVal(Var(&quot;x&quot;),LocVal(1),EmptyRecordVal)) input: {y := 1, x := 1}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(3) input: let z = 1 in begin {y := z := 0, x := z := 3}; z end" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: let r = {x:=1,y:=2} in r.x" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(3) input: let r = {x:=1,y:={z:=3}} in r.y.z" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: let r = {x:=1,y:={z:=3}} in r.y := 1" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: let r = {x:=1,y:={z:=3}} in begin r.y := 1; r.y end" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: begin {x:=1,y:={z:=3}} end . y := 1" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(2) input: let z = 1 in begin {x:=1,y:={k:=z := 2}} end . y := z" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(2) input: let z = 1 in {x:=1,y:={k:=z := 2}} . y := z" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: if 0 &lt;= 1 then 1 else 2" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(0) input: let fibo = 
+proc (x)
+    if x &lt;= 0 then 0 else
+      if x &lt;= 2 then 1 else
+        let temp = 1 in
+        let p = 1 in
+        let ret = 1 in
+        let y = 3 in
+        begin while y &lt;= x
+          begin
+            temp := ret;
+            ret := p + ret;
+            p := temp;
+            y := y + 1
+          end end;
+        ret
+         in fibo (0)" time="0.006">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: let fibo = 
+proc (x)
+    if x &lt;= 0 then 0 else
+      if x &lt;= 2 then 1 else
+        let temp = 1 in
+        let p = 1 in
+        let ret = 1 in
+        let y = 3 in
+        begin while y &lt;= x
+          begin
+            temp := ret;
+            ret := p + ret;
+            p := temp;
+            y := y + 1
+          end end;
+        ret
+         in fibo (1)" time="0.005">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(1) input: let fibo = 
+proc (x)
+    if x &lt;= 0 then 0 else
+      if x &lt;= 2 then 1 else
+        let temp = 1 in
+        let p = 1 in
+        let ret = 1 in
+        let y = 3 in
+        begin while y &lt;= x
+          begin
+            temp := ret;
+            ret := p + ret;
+            p := temp;
+            y := y + 1
+          end end;
+        ret
+         in fibo (2)" time="0.005">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(2) input: let fibo = 
+proc (x)
+    if x &lt;= 0 then 0 else
+      if x &lt;= 2 then 1 else
+        let temp = 1 in
+        let p = 1 in
+        let ret = 1 in
+        let y = 3 in
+        begin while y &lt;= x
+          begin
+            temp := ret;
+            ret := p + ret;
+            p := temp;
+            y := y + 1
+          end end;
+        ret
+         in fibo (3)" time="0.005">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(3) input: let fibo = 
+proc (x)
+    if x &lt;= 0 then 0 else
+      if x &lt;= 2 then 1 else
+        let temp = 1 in
+        let p = 1 in
+        let ret = 1 in
+        let y = 3 in
+        begin while y &lt;= x
+          begin
+            temp := ret;
+            ret := p + ret;
+            p := temp;
+            y := y + 1
+          end end;
+        ret
+         in fibo (4)" time="0.005">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(55) input: let fibo = 
+proc (x)
+    if x &lt;= 0 then 0 else
+      if x &lt;= 2 then 1 else
+        let temp = 1 in
+        let p = 1 in
+        let ret = 1 in
+        let y = 3 in
+        begin while y &lt;= x
+          begin
+            temp := ret;
+            ret := p + ret;
+            p := temp;
+            y := y + 1
+          end end;
+        ret
+         in fibo (10)" time="0.007">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: SkipVal input: let x = 0 in while x &lt;= 10 x := x + 1" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(0) input: let cnt = 0 in let f = proc (x) let cnt = cnt + 1 in x in let a = f ( f(1)) in cnt" time="0.001">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(3) input: let cnt = 0 in let f = proc (x) begin cnt := cnt + 1; cnt end in let a = f (1) in let b = f (1) in a + b" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(3) input: let f = let cnt = 0 in proc (x) begin cnt := cnt +1; cnt end in let a = f (1) in let b = f (1) in a + b" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(2) input: let f = proc (x) let cnt = 0 in begin cnt := cnt + 1; cnt end in let a = f (1) in let b = f (1) in a + b" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(12) input: let f = proc (x) proc (y) begin x := x + 1; x - y end in f (44) (33)" time="0.004">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(4) input: let x = 3 in let f = proc (x) proc (y) begin x := 4; y end in f &lt;x&gt; &lt;x&gt;" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(2) input: let x = 3 in let f = proc (x) proc (y) begin x := 4; y end in f &lt;x&gt; (2)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(4) input: let r = {x:=1,y:=3} in let z = r.x in let w = r.y in z + w" time="0.002">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(3) input: let x = 1 in let y = 2 in let fx = proc (x, y) x + y in let fy = proc (x,y) x - y in let r = {add := fx(x, y), sub := fy(x, y)} in r.add" time="0.003">
+                                                 
+                                               </testcase><testcase classname="HweTest" name="test with expected result: IntVal(0) input: let x = 1 in let y = 2 in let fx = proc (x, y) x + y in let fy = proc (x,y) x - y in let r = {funx := fx, funy := fy} in r.funx(x,r.funy(x,y))" time="0.007">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

@@ -1,0 +1,130 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/admin/Documents/POPL/hw4-handout/src/main/scala/Hw4.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(hw4.Mul, hw4.Asn, hw4.MiniCInterpreter.Result, hw4.RecordLike, hw4.RecordValLike, hw4.IntVal, hw4.PCallR, hw4.Block, hw4.LTEExpr, hw4.hw4.package, hw4.EmptyRecordExpr, hw4.MiniCInterpreter.UndefinedSemantics, hw4.ProcVal, hw4.Val, hw4.WhileExpr, hw4.Mem, hw4.BeginEnd, hw4.FieldAccess, hw4.SkipVal, hw4.False, hw4.Skip, hw4.MiniCInterpreter, hw4.EmptyRecordVal, hw4.Const, hw4.Program, hw4.Sub, hw4.Expr, hw4.PCallV, hw4.RecordExpr, hw4.NotExpr, hw4.Iszero, hw4.BoolVal, hw4.MiniCInterpreter.Res, hw4.RecordVal, hw4.Var, hw4.Hw4App, hw4.Ite, hw4.Add, hw4.Div, hw4.True, hw4.LocVal, hw4.FieldAssign, hw4.Proc, hw4.Let, hw4.EQExpr)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(hw4.Mul, hw4.Asn, hw4.MiniCInterpreter.Result, hw4.RecordLike, hw4.RecordValLike, hw4.IntVal, hw4.PCallR, hw4.Block, hw4.LTEExpr, hw4.hw4.package, hw4.EmptyRecordExpr, hw4.MiniCInterpreter.UndefinedSemantics, hw4.ProcVal, hw4.Val, hw4.WhileExpr, hw4.Mem, hw4.BeginEnd, hw4.FieldAccess, hw4.SkipVal, hw4.False, hw4.Skip, hw4.MiniCInterpreter, hw4.EmptyRecordVal, hw4.Const, hw4.Program, hw4.Sub, hw4.Expr, hw4.PCallV, hw4.RecordExpr, hw4.NotExpr, hw4.Iszero, hw4.BoolVal, hw4.MiniCInterpreter.Res, hw4.RecordVal, hw4.Var, hw4.Hw4App, hw4.Ite, hw4.Add, hw4.Div, hw4.True, hw4.LocVal, hw4.FieldAssign, hw4.Proc, hw4.Let, hw4.EQExpr)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/admin/Documents/POPL/hw4-handout/src/main/scala/Hw4.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: hw4.Mul, hw4.Asn, hw4.MiniCInterpreter.Result, hw4.RecordLike, hw4.RecordValLike, hw4.IntVal, hw4.PCallR, hw4.Block, hw4.LTEExpr, hw4.hw4.package, hw4.EmptyRecordExpr, hw4.MiniCInterpreter.UndefinedSemantics, hw4.ProcVal, hw4.Val, hw4.WhileExpr, hw4.Mem, hw4.BeginEnd, hw4.FieldAccess, hw4.SkipVal, hw4.False, hw4.Skip, hw4.MiniCInterpreter, hw4.EmptyRecordVal, hw4.Const, hw4.Program, hw4.Sub, hw4.Expr, hw4.PCallV, hw4.RecordExpr, hw4.NotExpr, hw4.Iszero, hw4.BoolVal, hw4.MiniCInterpreter.Res, hw4.RecordVal, hw4.Var, hw4.Hw4App, hw4.Ite, hw4.Add, hw4.Div, hw4.True, hw4.LocVal, hw4.FieldAssign, hw4.Proc, hw4.Let, hw4.EQExpr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.RecordExpr by hw4.RecordLike[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.EmptyRecordExpr by hw4.RecordLike[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.RecordVal by hw4.RecordValLike[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.EmptyRecordVal by hw4.RecordValLike[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.SkipVal by hw4.Val[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.BoolVal by hw4.Val[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.LocVal by hw4.Val[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Expr by hw4.Program[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Sub by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.PCallV by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.NotExpr by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Iszero by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Var by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Ite by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Add by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Div by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.True by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.FieldAssign by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Proc by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Let by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.EQExpr by hw4.Expr[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/admin/Documents/POPL/hw4-handout/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 356e571f for Scala compiler version 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/admin/Documents/POPL/hw4-handout/target/scala-2.13/classes:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.8-1/antlr4-runtime-4.8-1.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.13/2.2.2/fastparse_2.13-2.2.2.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.8-1/antlr4-4.8-1.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.1.7/sourcecode_2.13-0.1.7.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.4.2/geny_2.13-0.4.2.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.3/ST4-4.3.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/Users/admin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/ibm/icu/icu4j/61.1/icu4j-61.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.751479129 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from hw4.Expr...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Mul by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Asn by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.RecordLike by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.RecordExpr by hw4.RecordLike[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.EmptyRecordExpr by hw4.RecordLike[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.PCallR by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Block by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.LTEExpr by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.WhileExpr by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.BeginEnd by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.FieldAccess by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.False by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Skip by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Const by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Sub by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.PCallV by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.NotExpr by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Iszero by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Var by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Ite by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Add by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Div by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.True by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.FieldAssign by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Proc by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.Let by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.EQExpr by hw4.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(hw4.Mul, hw4.Asn, hw4.RecordLike, hw4.PCallR, hw4.Block, hw4.LTEExpr, hw4.EmptyRecordExpr, hw4.WhileExpr, hw4.BeginEnd, hw4.FieldAccess, hw4.False, hw4.Skip, hw4.Const, hw4.Sub, hw4.Expr, hw4.PCallV, hw4.RecordExpr, hw4.NotExpr, hw4.Iszero, hw4.Var, hw4.Ite, hw4.Add, hw4.Div, hw4.True, hw4.FieldAssign, hw4.Proc, hw4.Let, hw4.EQExpr)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCParserDriver. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(hw4.Expr,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 28 classes due to The hw4.Expr has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(hw4.Mul, hw4.Asn, hw4.RecordLike, hw4.PCallR, hw4.Block, hw4.LTEExpr, hw4.EmptyRecordExpr, hw4.WhileExpr, hw4.BeginEnd, hw4.FieldAccess, hw4.False, hw4.Skip, hw4.Const, hw4.Sub, hw4.Expr, hw4.PCallV, hw4.RecordExpr, hw4.NotExpr, hw4.Iszero, hw4.Var, hw4.Ite, hw4.Add, hw4.Div, hw4.True, hw4.FieldAssign, hw4.Proc, hw4.Let, hw4.EQExpr)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from hw4.PCallV...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: hw4.PCallV[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(hw4.PCallV)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw4.MiniCVisitor. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(hw4.PCallV,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The hw4.PCallV has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(hw4.PCallV)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(hw4.Mul, hw4.Asn, hw4.RecordLike, hw4.PCallR, hw4.Block, hw4.LTEExpr, hw4.EmptyRecordExpr, hw4.WhileExpr, hw4.BeginEnd, hw4.FieldAccess, hw4.False, hw4.Skip, hw4.Const, hw4.Sub, hw4.RecordExpr, hw4.NotExpr, hw4.Iszero, hw4.Var, hw4.Ite, hw4.Add, hw4.Div, hw4.True, hw4.FieldAssign, hw4.Proc, hw4.Let, hw4.EQExpr)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: hw4.Mul, hw4.Asn, hw4.RecordLike, hw4.PCallR, hw4.Block, hw4.LTEExpr, hw4.EmptyRecordExpr, hw4.WhileExpr, hw4.BeginEnd, hw4.FieldAccess, hw4.False, hw4.Skip, hw4.Const, hw4.Sub, hw4.RecordExpr, hw4.NotExpr, hw4.Iszero, hw4.Var, hw4.Ite, hw4.Add, hw4.Div, hw4.True, hw4.FieldAssign, hw4.Proc, hw4.Let, hw4.EQExpr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding hw4.MiniCVisitor by hw4.Mul[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

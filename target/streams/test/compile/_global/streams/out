@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/admin/Documents/POPL/hw4-handout/src/test/scala/Hw4Test.scala:70:7: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m      ,("let x = 0 in begin while x <= 10 x := x + 1 end ; x ", IntVal(11))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/admin/Documents/POPL/hw4-handout/src/test/scala/Hw4Test.scala:173:1: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
